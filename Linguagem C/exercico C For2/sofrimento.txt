@@ -1,0 +1,94 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+
+int main(int argc, char *argv[]){
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    int n1,d,c;
+    double s;
+    s=0;
+    d=3;
+    n1=1;
+      for(c=1;c<=25;c++){
+        s = 1 - (n1 / (d^3));
+        d = d + 2;
+        printf("%f",s);
+      }
+      printf("%f",s);
+      system("PAUSE");
+}
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+
+int main(int argc, char *argv[]){
+    setlocale(LC_ALL, "Portuguese_Brazil");
+    int n1,d,n,c;
+    double s;
+    c=0;
+    n=1;
+    d=50;
+      for(c=1;c<=25;c++){
+        s= s+((2^n)/d);
+        n = n++;
+        d = d - 2;
+        printf("%d \n",s);
+      }
+      printf("%d",s);
+      system("PAUSE");
+}
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(int argc, char *argv[]){
+    int n1,d,c;
+    double s;
+    s=0;
+    d=3;
+    for(c=1;c<=25;c++){
+        s = 1 / d^3;
+        s = s / (d^3);
+        d = d + 2;
+        printf("%f \n",s);
+      }
+      printf("%d",s);
+      system("PAUSE");
+}
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(int argc, char *argv[]){
+    int d,c;
+    double s;
+    s=1;
+    d=3;
+    
+    for(c=1;c<=25;c++){
+        s = 1 - 1 /(d^3);
+        d = d + 2;
+        printf("%f \n",s);
+      }
+      printf("%f",s);
+      system("PAUSE");
+}
+
